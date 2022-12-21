@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Baloo+2:wght@400;500;600;700;800&family=Josefin+Sans:wght@400;500;700&family=Lexend+Deca:wght@500;700&family=Livvic:wght@500;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden!important;
+    
+}
+header{
+    width: 100%;
+    background-image: linear-gradient( #69B7FF , #fff);
+   
+    height: 80px;
+   
+}
+.logo-area{
+    margin-left: -22px;
+    cursor: pointer;
+}
+.logo-area .logo{
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+.nav a{ 
+    font-family: 'Baloo 2', cursive;
+    font-weight: 800;
+    font-size: 22px;
+    color: #000;
+}
+.user-area , .social-area{
+    float: right;
+    cursor: pointer;
+}
+.user-area img{
+    width: 35px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+/* -----main-div-area----- */
+.sidebar-area{
+    position: relative;
+    display: block;
+    background: #90DEFF;
+    height: 100%;
+    padding-top: 50px;
+    box-shadow: 2px 0px #9fcde1;
+}
+.sidebar-area button{
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    margin-top: 20px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
+.content-area{
+    padding-top: 20%;
+    padding-bottom: 25%;
+}
+.content-area button{
+    padding: 2px 18px;
+    border:  1px solid #69B7FF;
+    border-radius: 15px;
+    margin-top: 5px;
+    
+}
+.left-form form{
+    width: 80%;
+}
+.left-form form input{
+   padding: 10px;
+   margin: 10px 1px;
+   border:  1px solid #69B7FF;
+   border-width: 2px;
+}
+.right-form table {
+    width: 80%;
+    border-width: 3px 0!important;
+    border:  1px solid #69B7FF;
+   
+}
+.right-form td {
+   
+    text-align: left;
+    padding: 12px;
+  }
+  
+/* ---------footer-area------------- */
+footer{
+    background-image: linear-gradient(to top, #69B7FF , #fff);
+    height: 80px;
+   
+}
+footer a, p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+footer li{
+    list-style: none;
+    float: left;
+    
+}
+.privacy-area a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #000;
+
+}
+.privacy-area a:hover{
+    text-decoration: dashed;
+    color: blue;
+}
+.social-area ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 35px;
+    padding-right: 15px;
+    
+}
+.social-area i:hover{
+    
+    color: blue;
+    
+    
+}
