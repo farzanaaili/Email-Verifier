@@ -13,50 +13,51 @@
 <body>
   
     <!-- ----------Header-area-start------------ -->
-    <div class="header-area py-5" id="top-header" >
+    <div class=" py-5 header-area" id="top-header" >
       <div class="container">
   
-          <nav >
-            <input id="nav-toggle" type="checkbox">
-            <div class="logo">
-              <img src="../image/logo.png" alt="">
-            </div>
-            <ul class="links">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-                
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Services
-                </a>
-                <div class="dropdown-menu">
-                  <a href="./pages/account.html" type="button">Account</a>
-                  <a href="index.html" type="button">Single Verifyer</a>
-                  <a href="./pages/bulk.html" type="button">Bulk Verifier</a>
-                  <a href="./pages/email-finder.html" type="button">Email Finder</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a  type="button" class="rounded-pill border nav-link ">Free Sign Up</a>
-              </li>
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a href="./index.html"><img  class="logo" src="./image/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="menu-item navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Email Verifier
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./index.html">Single Verifier</a></li>
+                    <li><a class="dropdown-item" href="./pages/bulk.html">Bulk Verifier</a></li>
+                    <li><a class="dropdown-item" href="./pages/email-finder.html">Email Finder</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#" tabindex="-1" aria-disabled="true"> Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a type="button" class="nav-link rounded-pill border " href="#" tabindex="-1" aria-disabled="true">Free Sign Up</a>
+                </li>
+              </ul>
               <div class="user">
-                <img src="./image/user.png" alt="">
+                
+                <a href="#"><img src="./image/user.png" alt=""></a>
               </div>
-            </ul>
-           
-            <label for="nav-toggle" class="icon-burger">
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-            </label>
-          </nav>
-          
+            </div>
+          </div>
+        </nav>
       </div>
-  </div>
+        
+    </div>
+  
         
     <!-- ----------Header-area-End------------ -->
 
@@ -68,7 +69,7 @@
               <div class="sidebar-area">
                  
                   <a href="./pages/account.html" type="button">Account</a>
-                  <a href="index.html" type="button">Single Verifyer</a>
+                  <a href="./index.html" type="button">Single Verifyer</a>
                   <a href="./pages/bulk.html" type="button">Bulk Verifier</a>
                   <a href="./pages/email-finder.html" type="button">Email Finder</a>
                      
